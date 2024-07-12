@@ -1,16 +1,15 @@
 package DifferenceObjectsClasses;
 
 public class Person {
-    // A class is a blueprint for creating objects. It defines the properties and behaviors that the objects will have.
+    // Class variable
     private String name;
 
-    // Constructor to initialize the object
-    // It is used to set the initial state of the object.
+    // Constructor to initialize the object   
     public Person(String name) {
         this.name = name;
     }
 
-    // Methods define the behavior of the class. They are actions that an object of the class can perform.
+    // Method to display a greeting message
     public void sayHello() {
         System.out.println("Hello, my name is " + name);
     }
